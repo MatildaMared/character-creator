@@ -1,15 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import CharacterEditor from './components/CharacterEditor';
-import Footer from './components/Footer';
+import CharacterEditor from "./components/CharacterEditor";
+import PerspectiveBackground from "./components/PerspectiveBackground/PerspectiveBackground";
+import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <>
-      <CharacterEditor />
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			<PerspectiveBackground />
+			<CharacterEditor />
+			<Footer />
+		</>
+	);
 }
 
 export default App;
